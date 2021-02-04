@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가계부</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="image/calculator.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="budget-container">
+    <div class="app-title">
+      <a href="">Budget<b>App</b></a>
+    </div>
+    <div class="budget-header">
+      <div class="balance">
+        <div class="title">Balance</div>
+        <div class="value">
+          0<small>￦</small>
+        </div>
+      </div>
+      <div class="account">
+        <div class="income">
+          <div class="title">수입</div>
+          <div class="income-total">
+            0<small>원</small>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="outcome">
+          <div class="title">지출</div>
+          <div class="outcome-total">
+            0<small>원</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="budget-dashboard">
+      <div class="dash-title">Dashboard</div>
+      <div class="toggle">
+        <div class="tab1">지출</div>
+        <div class="tab2">수입</div>
+        <div class="tab3 active">전체</div>
+      </div>
+      <div class="hide" id="income">
+        <ul class="list"></ul>
+        <div class="input">
+          <input type="text" id="income-title-input" name="title" placeholder="내용">
+          <input type="text" id="income-amount-input" name="amount" placeholder="0원" onkeyup="inputNumberFormat(this)">
+          <div class="add-income">
+            <i class="far fa-plus-square"></i>
+          </div>
+        </div>
+      </div>
+      <div class="hide" id="expense">
+        <ul class="list"></ul>
+        <div class="input">
+          <input type="text" id="expense-title-input" name="title" placeholder="내용">
+          <input type="text" id="expense-amount-input" name="amount" placeholder="0원" onkeyup="inputNumberFormat(this)">
+          <div class="add-expense">
+            <i class="far fa-plus-square"></i>
+          </div>
+        </div>
+      </div>
+      <div id="all">
+        <ul class="list"></ul>
+      </div>
+    </div>
+
+    <script src="chart.js"></script>
+    <script src="budget.js"></script>
+    <script src="common.js"></script>
+</body>
+
+</html>
