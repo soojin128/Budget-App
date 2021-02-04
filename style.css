@@ -244,7 +244,7 @@ input[type="number"] {
   vertical-align: middle;
 }
 
-.budget-dashboard #expense .input input#expense-title-input {
+.budget-dashboard #expense .input #expense-title-input {
   height: 40px;
   width: 150px;
   padding-left: 10px;
@@ -255,13 +255,12 @@ input[type="number"] {
   border: none;
 }
 
-.budget-dashboard #expense .input input#expense-amount-input {
+.budget-dashboard #expense .input #expense-amount-input {
   height: 40px;
   width: 110px;
   padding-left: 10px;
   font-size: 1.2em;
   margin: 5px;
-  margin-left: -10px;
   border-radius: 0 10px 10px 0;
   border: none;
 }
@@ -357,13 +356,12 @@ input[type="number"] {
   border: none;
 }
 
-.budget-dashboard #income .input input#income-amount-input {
+.budget-dashboard #income .input #income-amount-input {
   height: 40px;
   width: 110px;
   padding-left: 10px;
   font-size: 1.2em;
   margin: 5px;
-  margin-left: -10px;
   border-radius: 0 10px 10px 0;
   border: none;
 }
