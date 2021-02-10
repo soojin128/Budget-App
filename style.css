@@ -38,8 +38,8 @@ input[type="number"] {
   background-color: #003152;
 }
 
-@media screen and (max-height:780px){
-  .budget-container{
+@media screen and (max-height: 780px) {
+  .budget-container {
     top: 0;
     transform: translateX(-50%);
   }
@@ -107,7 +107,7 @@ input[type="number"] {
   opacity: 0.5;
 }
 .budget-header .account .outcome .outcome-total {
-  color: #FEA319;
+  color: #fea319;
   font-weight: bold;
 }
 
@@ -212,13 +212,13 @@ input[type="number"] {
 }
 
 .budget-dashboard #all ul.list li.expense {
-  color: #FEA319;
+  color: #fea319;
 }
 
 /* //////// EXPENSE ////////// */
 .budget-dashboard #expense {
   width: 360px;
-  height: 339px;
+  height: 400px;
   position: relative;
 }
 
@@ -263,7 +263,7 @@ input[type="number"] {
 
 .budget-dashboard #expense ul {
   width: 360px;
-  height: 285px;
+  height: 320px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -289,7 +289,7 @@ input[type="number"] {
   margin-bottom: 10px;
   word-wrap: break-word;
   font-weight: bold;
-  color: #FEA319;
+  color: #fea319;
 }
 
 .budget-dashboard #expense ul.list li #edit {
@@ -319,7 +319,7 @@ input[type="number"] {
 /* /////// INCOME //////// */
 .budget-dashboard #income {
   width: 360px;
-  height: 339px;
+  height: 400px;
   position: relative;
 }
 
@@ -364,7 +364,7 @@ input[type="number"] {
 
 .budget-dashboard #income ul {
   width: 360px;
-  height: 285px;
+  height: 320px;
   list-style: none;
   margin: 0;
   padding: 0;
